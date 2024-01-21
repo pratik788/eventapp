@@ -1,0 +1,28 @@
+<div class="pageStart">
+<section class="event-table">
+    <div class="container">
+        <h2>Register User For Events</h2>
+        <div class="table-div">
+            <table *ngIf="registerUserData" datatable [dtOptions]="dtOptions" class="table table-striped table-bordered">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Event Name</th>
+                    <th>User Id</th>
+                    <th>Payment Status</th>
+
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let registerUserData of registerUserData;index as i">
+                    <td>{{i+1}}</td>
+                    <td>{{registerUserData.event_name}}</td>
+                    <td>{{registerUserData.user_id}}</td>
+                    <td>{{registerUserData.payment_status}}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+</section>
+</div>

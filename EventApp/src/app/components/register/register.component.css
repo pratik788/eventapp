@@ -1,0 +1,41 @@
+.registerformblock{
+    width: 50%;
+    background-color: silver;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 30px;
+    margin: auto;
+}
+
+.box-class{
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h2{
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+label{
+    font-weight: 600;
+}
+
+.col-md-12{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button{
+   /* text-align: center;
+    */
+    display: flex;
+    justify-content: center;
+}
+
+.alert{
+    display: none;
+}
